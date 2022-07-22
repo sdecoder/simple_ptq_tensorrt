@@ -1,0 +1,11 @@
+TRT-8401-EntropyCalibration2
+input: 3c010a14
+x: 3add1315
+input.1: 3a972a85
+x.3: 3c3465ee
+onnx::MaxPool_12: 3b24a6dd
+input.4: 3b24a6dd
+x.7: 3cb24cee
+input.8: 3cb2f25d
+x.11: 3d8c3f23
+output: 3db4954f
