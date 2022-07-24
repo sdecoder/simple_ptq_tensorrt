@@ -35,6 +35,7 @@
 
   <h3 align="center">Simple PTQ approach for Tensorrt</h3>
 
+  <!-- 
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
@@ -46,7 +47,7 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
+  </p>-->
 </div>
 
 
@@ -56,7 +57,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About This Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -86,7 +87,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 -->
 
-This project aims at building a common routine/reference to leverage the PTQ functinality for TensorRT.
+This project aims at building a common routine/reference to leverage the PTQ functionality for TensorRT.
 
 Here's initiatives:
 * TensorRT official SDK only provides examples for Caffe.
@@ -108,7 +109,7 @@ All related SDK installed on the development platform.
 
 ### Installation
 
-1. Download all prerequisites frome the NVIDIA official website; 
+1. Download all prerequisites from the NVIDIA official website; 
 2. Install the CUDA SDK;
 3. Install the CuDNN SDK;
 4. Install the TensorRT SDK;
@@ -116,9 +117,9 @@ All related SDK installed on the development platform.
 6. Install the Pytorch CUDA/ROCm version;
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Test Result
+## Workflow
 
-### Model trainning
+### Model training
 
 The basic model structure is list as following:
 ```
@@ -246,7 +247,7 @@ trtexec --loadEngine=resnet50.tf32.engine --batch=8192 --streams=8 --verbose --a
 [07/22/2022-23:59:12] [I] Enqueue Time: min = 0.0134277 ms, max = 0.0513916 ms, mean = 0.0146272 ms, median = 0.0141602 ms, percentile(99%) = 0.0234375 ms
 [07/22/2022-23:59:12] [I] H2D Latency: min = 0.00683594 ms, max = 0.0310059 ms, mean = 0.011475 ms, median = 0.0112305 ms, percentile(99%) = 0.0170898 ms
 [07/22/2022-23:59:12] [I] GPU Compute Time: min = 0.371033 ms, max = 0.688965 ms, mean = 0.516601 ms, median = 0.514069 ms, percentile(99%) = 0.61499 ms
-[07/22/2022-23:59:12] [I] D2H Latency: min = 0.00488281 ms, max = 0.0249023 ms, mean = 0.00983961 ms, median = 0.00976562 ms, percentile(99%) = 0.0146484 ms
+[07/22/2022-23:59:12] [I] D2H Latency: min = 0.00488281 ms, max = 0.0249023q ms, mean = 0.00983961 ms, median = 0.00976562 ms, percentile(99%) = 0.0146484 ms
 [07/22/2022-23:59:12] [I] Total Host Walltime: 3.00147 s
 [07/22/2022-23:59:12] [I] Total GPU Compute Time: 23.681 s
 [07/22/2022-23:59:12] [W] * GPU compute time is unstable, with coefficient of variance = 5.8492%.
@@ -283,13 +284,9 @@ trtexec --loadEngine=resnet50.fp32.engine --batch=8192 --streams=8 --verbose --a
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [![Next][Next.js]][TensorRT]
-
 <p align="right">(<a href="#top">back to top</a>)</p>
  -->
-
-
 
 <!-- GETTING STARTED 
 ## Getting Started
