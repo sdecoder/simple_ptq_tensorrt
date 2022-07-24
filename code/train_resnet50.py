@@ -66,6 +66,10 @@ class Net(nn.Module):
 
 
 def train(args, model, device, train_loader, optimizer, epoch):
+
+  print(f'[trace] summary of the model')
+  from torchsummary import summary
+  summary(model, (1, 28, 28))
   model.train()
   model.to(device)
   for batch_idx, (data, target) in enumerate(train_loader):
